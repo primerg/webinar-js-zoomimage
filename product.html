@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" media="print" href="css/print.css">
+
+	<script src='lib/elevatezoom/jquery-1.8.3.min.js'></script>
+	<script src='lib/elevatezoom/jquery.elevatezoom.js'></script>
+
+	<link rel="stylesheet" href="http://www.elevateweb.co.uk/wp-content/themes/radial/jquery.fancybox.css" />
+	<script src="http://www.elevateweb.co.uk/wp-content/themes/radial/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<!-- HEADER-AREA-START -->
+<header class="header-area">
+	<div class="container">
+		<!-- HEADER-CONTENT START-->
+		<div class="header-content">
+			<div class="logo pull-left" id="fix-logo">
+				<a href="index.html">
+					<img src="img/logo.png" alt="" class="logo-defoult">
+				</a>
+			</div>
+
+			<div class="user-menu pull-right" id="fix-user-menu">
+				<ul class="list-inline">
+					<li><a href="create-account.html">My Account</a></li>
+					<li><a href="checkout.html">Checkout</a></li>
+					<li><a href="checkout.html">Log In</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- HEADER-CONTENT END-->
+	</div>
+</header>
+
+<!-- MAIN-MENU-AREA-START -->
+<nav class="main-menu-area" id="sticker">
+	<div class="container">
+			<a class="mobile-menu hidden-md hidden-lg" href="#nav">MENU <span>&#9776</span></a>
+
+			<ul class="list-inline">
+				<li><a href="index.html">Home One</a></li>
+				<li><a href="index-2.html">Home Two</a></li>
+				<li><a href="index-3.html">Home Three</a></li>
+				<li><a href="index-4.html">Home Four</a></li>
+				<li><a href="index-5.html">Home Five</a></li>
+				<li><a href="index-6.html">Home Six</a></li>
+				<li><a href="index-7.html">Home Seven</a></li>
+			</ul>
+
+			
+	</div>
+</nav>
+
+<!-- MAIN-MENU-AREA-START -->
+<section>
+	<div class="container">
+		<div class="product-view">
+		    <div class="product-essential">
+		        <div class="row">
+		        	<div class="col-sm-4">
+		        		<div class="zoom-left">
+							<img style="" id="img_01" src="img/products/2.jpg" data-zoom-image="img/products/2.jpg" height="411" style="height: 411px !important;" />
+							<div id="gallery_01" style="width=500pxfloat:left; ">
+								<a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/products/1.jpg" data-zoom-image="img/products/1.jpg">
+									<img id="img_01" src="img/products/1.jpg" width="100"  />
+								</a>
+								<a  href="#" class="elevatezoom-gallery"
+						     		data-image="img/products/2.jpg"
+						     		data-zoom-image="img/products/2.jpg" >
+						    		<img id="" src="img/products/2.jpg" width="100"  />
+						    	</a>
+							</div>
+						</div>
+
+		            
+		                <!-- <div class="product-img-box">
+		                    <div class="more-views">
+		                        <h2>More Views</h2>
+		                        <ul class="product-image-thumbs list-unstyled" id="gallery_01">
+		                            <li>
+		                                <a data-image-index="0" title="" href="#" class="thumb-link" data-image="img/products/2.jpg" data-zoom-image="img/products/2.jpg">
+		                                    <img alt="" id="zoom_01" src="img/products/2.jpg">
+		                                </a>
+		                            </li>
+		                            <li>
+		                                <a data-image-index="0" title="" href="#" class="thumb-link" data-image="img/products/1.jpg" data-zoom-image="img/products/1.jpg">
+		                                    <img alt="" id="zoom_01" src="img/products/1.jpg">
+		                                </a>
+		                            </li>
+		                        </ul>
+		                    </div>
+
+		                    <div class="product-image product-image-zoom zoom-available">
+		                        <div class="product-image-gallery">
+		                            <img title="Fusce Aliquam" alt="Fusce Aliquam" src="img/products/2.jpg" id="zoom_01" class="gallery-image visible" id="image-main" data-zoom-image="img/products/2.jpg">
+		                        </div>
+		                    </div>
+		                </div> -->
+		            </div>
+		            <div class="product-shop col-sm-6 col-sms-12">
+		                <div class="product-name">
+		                    <h1>Fusce Aliquam</h1>
+		                </div> 
+		                <div class="price-box">
+		                    <span id="product-price-29" class="regular-price pull-left">
+		                        <span class="price">$123.00</span>                                    
+		                    </span>
+		                    <p class="availability in-stock pull-right">Availability: <span>In Stock</span></p>
+
+		                    <div id="starType"></div>
+
+		                </div>
+
+					    <form target="paypal" class="action-button" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="P6W26LCTRSQEY">
+							<table>
+							<tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
+								<option value="Option 1">Option 1 $1.00 USD</option>
+								<option value="Option 2">Option 2 $2.00 USD</option>
+								<option value="Option 3">Option 3 $3.00 USD</option>
+							</select> </td></tr>
+							</table>
+							<br/>
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="return" value="http://koodi.ph">
+
+							<button class="btn-cart button" type="submit" ><span>Add to Cart</span></button>
+							<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+
+							<br/>
+
+		                <div class="short-description">
+				                <div class="std">Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt.
+				                </div>
+				        </div>
+		            </div>
+
+		        </div>
+
+				<div class="row full-description">
+					<h2>Description</h2>
+					<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. </p>
+				</div> 
+		    </div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</section>
+
+<!-- FOOTER-AREA-START -->
+<footer>
+	<div class="container">
+		<div class="col col-md-4">
+			<div class="single-footer-menu">
+				<div class="footer-title">
+					<h2>Company Info</h2>
+				</div>
+				<div class="footer-menu">
+					<ul class="list-unstyled">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">terms of use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col col-md-4">
+			<div class="single-footer-menu">
+				<div class="footer-title">
+					<h2>CUSTOMER SERVICE</h2>
+				</div>
+				<div class="footer-menu">
+					<ul class="list-unstyled">
+						<li><a href="#">shipping policy</a></li>
+						<li><a href="#">Compensation Fist</a></li>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Return Policy</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+	$("#img_01").elevateZoom({
+   		zoomWindowFadeIn : 500,
+		zoomLensFadeIn: 500,
+		gallery : "gallery_01",
+		imageCrossfade: true,
+		scrollZoom: true, 
+		cursor:"pointer",
+		zoomWindowWidth:411,
+	    zoomWindowHeight:274,
+	    zoomWindowOffetx: 10,
+   	});
+
+	$("#img_01").bind("click", function(e) {  
+	 	var ez = $('#zoom_01').data('elevateZoom');
+	 	$.fancybox(ez.getGalleryList());
+        return false;
+    });
+</script>
+
+
+
+</body>
+</html>
